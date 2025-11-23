@@ -9,7 +9,7 @@ module.exports = {
   config: {
     name: "fight",
     version: "1.0",
-    author: "Shikaki",
+    author: "dhon-cmd",
     countDown: 10,
     role: 0,
     shortDescription: {
