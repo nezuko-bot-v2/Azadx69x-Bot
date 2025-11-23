@@ -10,15 +10,26 @@ module.exports = {
 		countDown: 5,
 		role: 1,
 		description: {
+			vi: "lọc thành viên nhóm theo số tin nhắn hoặc bị khóa acc",
 			en: "filter group members by number of messages or locked account"
 		},
 		category: "box chat",
 		guide: {
+			vi: "   {pn} [<số tin nhắn> | die]",
 			en: "   {pn} [<number of messages> | die]"
 		}
 	},
 
 	langs: {
+		vi: {
+			needAdmin: "⚠️ | Vui lòng thêm bot làm quản trị viên của box để sử dụng lệnh này",
+			confirm: "⚠️ | Bạn có chắc chắn muốn xóa thành viên nhóm có số tin nhắn nhỏ hơn %1 không?\nThả cảm xúc bất kì vào tin nhắn này để xác nhận",
+			kickByBlock: "✅ | Đã xóa thành công %1 thành viên bị khóa acc",
+			kickByMsg: "✅ | Đã xóa thành công %1 thành viên có số tin nhắn nhỏ hơn %2",
+			kickError: "❌ | Đã xảy ra lỗi không thể kick %1 thành viên:\n%2",
+			noBlock: "✅ | Không có thành viên nào bị khóa acc",
+			noMsg: "✅ | Không có thành viên nào có số tin nhắn nhỏ hơn %1"
+		},
 		en: {
 			needAdmin: "⚠️ | Please add the bot as a group admin to use this command",
 			confirm: "⚠️ | Are you sure you want to delete group members with less than %1 messages?\nReact to this message to confirm",
