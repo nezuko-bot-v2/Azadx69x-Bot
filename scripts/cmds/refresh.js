@@ -2,7 +2,7 @@ module.exports = {
 	config: {
 		name: "refresh",
 		version: "1.2",
-		author: "NTKhang",
+		author: "NtKhang",
 		countDown: 60,
 		role: 0,
 		description: {
