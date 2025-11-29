@@ -13,7 +13,7 @@ module.exports = {
     name: "quiz",
     aliases: ["qz"],
     version: "1.7",
-    author: "MahMUD",
+    author: "MAhMUD",
     countDown: 10,
     role: 0,
     category: "🎮 Game",
