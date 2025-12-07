@@ -1,4 +1,4 @@
-)cmd install join.js const axios = require("axios");
+const axios = require("axios");
 const fs = require("fs-extra");
 const request = require("request");
 
@@ -6,7 +6,7 @@ module.exports = {
     config: {
         name: "join",
         version: "1.3",
-        author: "Azad 💥",
+        author: "Azadx69x",
         countDown: 5,
         role: 0,
         shortDescription: "Join the group that bot is in",
@@ -101,7 +101,6 @@ Group: ${g.threadName || "Unnamed Group"}`, event.threadID, event.messageID);
             }
 
             try {
-                // Attempt to add user
                 await api.addUserToGroup([event.senderID], g.threadID);
 
                 api.sendMessage(
